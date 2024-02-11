@@ -8,6 +8,7 @@ disable=
       E0611, # no-name-in-module
       E0001, # syntax-error
       E1143, # unhashable-member
+      W0719, # broad-exception-raised
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
